@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/color"
+        ></ImageView>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/dancingscript"
+        android:gravity="center"
+        android:text="Sign Language"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Recognition"
+        android:gravity="center"
+        android:fontFamily="@font/dancingscript"
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#b7d7e8"
+        android:fontFamily="@font/amaticbold"
+        android:text="Real-time Recognition"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/combine_letter_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#daebe8"
+        android:fontFamily="@font/amaticbold"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Combine  Letter"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/dancingscript"
+        android:gravity="center"
+        android:text="\nTo be courageous is to be a voice for the voiceless"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
