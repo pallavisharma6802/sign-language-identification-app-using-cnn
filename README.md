@@ -28,10 +28,3 @@ The system integrates **TensorFlow Lite** models for hand detection and gesture 
 2. **Gesture Classification**: The detected hand region is then passed to a separate classifier model (`sign_language_model.tflite`) to predict the corresponding ASL letter.
 3. **Result Display and Sentence Formation**: Recognized letters are shown live, and users can construct words or sentences by adding individual characters through the app interface.
 
----
-
-## Future Enhancements
-- Expand the classification model to support dynamic signs and full-word detection.
-- Integrate real-time text-to-speech (TTS) features for auditory output.
-- Improve model robustness across varied hand shapes, backgrounds, and environmental conditions.
-
